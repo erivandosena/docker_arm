@@ -16,4 +16,12 @@ Description:
 
 * ``armhf-phpmyadmin``          : ARMHF phpMyAdmin 
 
-* ``armhf-letsencrypt-certbot`` : ARMHF Let's Encrypt certbot 
+* ``armhf-letsencrypt-certbot`` : ARMHF Let's Encrypt certbot
+
+##### Rename branch
+```bash
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
+```
